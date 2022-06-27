@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62.25;
+}
+
+body {
+  background-color: #9cc2e9;
+  line-height: 1;
+  font-family: uni, Arial, sans-serif;
+  overflow: auto;
+}
+
+.navfundo {
+  background-color: #885a2e;
+  position: sticky;
+  top: 0px;
+  display: flexbox;
+
+}
+
+.logo {
+  top: 5px;
+  position: relative;
+}
+
+.nomedosite {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  color: #1878d8;
+  display: inline-block;
+  text-shadow: 0.05em 0.1em #37404a;
+  position: relative;
+  
+}
+
+.menunav {
+  position: relative;
+  bottom: 40px;
+  left: 300px;
+  display: block;
+}
+
+.links__list {
+  list-style: none;
+  font-size: 0;
+
+}
+
+.itemnav {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  font-size: 2rem;
+  color: #ffff;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+}
+
+.itemnav:hover {
+  color: #9cc2e9;
+
+  transition: 0.2s;
+
+  opacity: 0.7;
+
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+  max-width: 400px;
+  max-height: 400px;
+  overflow: auto;
+  background-color: #fafafa;
+
+
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
+.card__image {
+  float: center;
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.card__destaque {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 600px;
+  transition: all 0.3s ease-out;
+  max-width: 600px;
+  max-height: 600px;
+  overflow: hidden;
+  background-color: #fafafa;
+
+}
+
+.card__destaque:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.destaque__image {
+  float: center;
+  max-width: 600px;
+  max-height: 300px;
+}
+
+.conteudo{
+  margin-top: 2%;
+  margin-left: 2%;
+}
